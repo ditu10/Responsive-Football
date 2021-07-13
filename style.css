@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header section */
+header{
+    background-color: #2D25A0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 677px;
+    margin-bottom: 70px;
+}
+header h1{
+    width: 485px;
+    font-size: 64px;
+    color: white;
+}
+header img{
+    width: 556px;
+}
+
+.header-left a{
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+.watch-button{
+    /* display: flex; */
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+/* Players section  */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1050px;
+    margin: 0 auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+   
+    
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player img{
+    width: 100%;
+}
+
+
+/* ---------------------
+ footer 
+ --------------------- */
+
+ footer{
+    padding-top: 300px;
+    width: 484px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ footer img{
+     width: 100%;
+ }
+
+ .social-media i{
+     margin-right: 14px;
+     color: gray;
+ }
