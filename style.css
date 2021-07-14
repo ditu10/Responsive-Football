@@ -59,6 +59,37 @@ header i{
     width: 100%;
 }
 
+/*-----------------------
+ Recent videos and sponsors
+------------------------ */
+
+.recent-videos h2{
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 70px;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+
+
+.video{
+    
+    margin: 0 auto;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsors a{
+    padding: 0 10px;
+}
 
 /* ---------------------
  footer 
