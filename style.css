@@ -30,14 +30,13 @@ header img{
     text-decoration: none;
 
 }
-.watch-button{
-    /* display: flex; */
+header a{
     color: white;
     background-color: #E02C6D;
     padding: 10px 24px;
-    justify-content: flex-start;
-    align-items: center;
-    display: inline-flex;
+}
+header i{
+    padding-left: 15px;
 }
 
 /* Players section  */
