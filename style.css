@@ -4,6 +4,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 @keyframes lafalafi {
     0%{
@@ -150,7 +152,7 @@ header img:hover{
     width: 100%;
     margin: 0 auto;
     color: white;
-    position: relative;
+    
  }
 
  .center-footer{
