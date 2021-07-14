@@ -128,7 +128,7 @@ header img:hover{
 
 
 .video{
-    
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -207,7 +207,8 @@ header img:hover{
         width: 100%;
     }
     .video{
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
         padding-bottom: 15px;
     }
     iframe{
@@ -246,7 +247,8 @@ header img:hover{
         width: 100%;
     }
     .video{
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
         padding-bottom: 15px;
     }
     iframe{
