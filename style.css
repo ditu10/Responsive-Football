@@ -53,11 +53,7 @@ header h1:hover{
     
     animation: jhikimiki 1.5s ease-in-out;
 }
-/* .header-left{
-    display: flex;
-    flex-direction: column;
 
-} */
 .watch-live{
     display: inline-block;
 }
@@ -223,9 +219,9 @@ header img:hover{
  
  /*------------------------
  for Ipad device 
- --------------------------- */
+ --------------------------- --*/
 
- @media only screen and (min-width:688px) and (max-width:992px) {
+ @media only screen and (min-width:688px) and (max-width:1024px) {
     header{
         width: 100%;
         flex-direction: column;
