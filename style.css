@@ -180,6 +180,9 @@ header img:hover{
   Media Queries 
   ------------------- */
 
+ /*------------------------
+ for mobile device 
+ --------------------------- */
 
 @media only screen and (max-width:688px) {
     header{
@@ -190,7 +193,7 @@ header img:hover{
         padding-bottom: 50px;
     }
     header h1{
-        width: 300px;
+        width: 100%;
         font-size: 35px;
         text-align: center;
         color: white;
@@ -218,3 +221,41 @@ header img:hover{
     }
 }
  
+ /*------------------------
+ for Ipad device 
+ --------------------------- */
+
+ @media only screen and (min-width:688px) and (max-width:992px) {
+    header{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+     .header-left{
+        padding-bottom: 100px;
+    }
+    
+    
+    header img{
+        width: 80%;
+    }
+   
+    .players,.videos{
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    iframe{
+        width: 100%;
+    }
+    
+    .sponsor{
+        width: 18%    
+    }
+    .sponsors img{
+        width: 100%;
+    } 
+ }
