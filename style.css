@@ -64,7 +64,7 @@ header i{
 ------------------------ */
 
 .recent-videos h2{
-    color: blue;
+    color: #2D25A0;
     text-align: center;
     font-size: 35px;
     padding-top: 70px;
@@ -86,6 +86,7 @@ header i{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 .sponsors a{
     padding: 0 10px;
@@ -96,9 +97,15 @@ header i{
  --------------------- */
 
  footer{
-    padding-top: 158px;
-    width: 484px;
+     background-image: url("https://assets-production.applicaster.com/static/copa_america/images/footer-bg.png");
+    padding-top: 58px;
+    width: 100%;
     margin: 0 auto;
+    color: white;
+    position: relative;
+ }
+
+ .center-footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,10 +113,14 @@ header i{
  }
 
  footer img{
-     width: 100%;
+     width: 30%;
+     background-color: white;
+     margin-bottom: 30px;
  }
 
  .social-media i{
      margin-right: 14px;
-     color: gray;
+     color: rgb(255, 253, 253);
  }
+
+ 
