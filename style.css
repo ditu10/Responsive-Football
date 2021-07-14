@@ -203,18 +203,13 @@ header img:hover{
         width: 100%;
     }
     .video{
-        /* width: 100%; */
+        width: 100%;
         padding-bottom: 15px;
     }
-    .sponsors{
+    iframe{
         width: 100%;
-        
-        
-        /* display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 15px;
-        margin: 0 auto; */
     }
+    
     .sponsor{
         width: 18%    
     }
